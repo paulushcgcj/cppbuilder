@@ -1,6 +1,6 @@
 # C++ Builder on CentOS Server
 
-This image has everything you need to build a C/C++ project on CentOS machine.
+This image has everything you need to build a C/C++ project on CentOS machine. This image is build based on [Github Repo](https://github.com/paulushcgcj/cppbuilder)
 
 ## Contents
 
