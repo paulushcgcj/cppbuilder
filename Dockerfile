@@ -1,4 +1,4 @@
-FROM centos:6.8
+FROM centos:6.9
 MAINTAINER Paulo Gomes da Cruz Junior <paulushc@gmail.com>
 
 #Remove the repos
@@ -10,7 +10,7 @@ ADD CentOS-Base.repo /etc/yum.repos.d/
 #List the repos
 RUN yum repolist
 #Install some dependencies
-RUN yum install postgresql-devel boost-devel git curl wget nc -y
+RUN yum install postgresql-devel boost-devel git curl wget nc sshpass -y
 #Install Development Tools dependencies
 RUN yum groupinstall 'Development Tools' -y 
 #Expose a port if you need to run anything
