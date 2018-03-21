@@ -9,6 +9,8 @@ RUN yum clean all
 ADD CentOS-Base.repo /etc/yum.repos.d/
 #List the repos
 RUN yum repolist
+#Add EPEL repo
+RUN yum install epel-release -y
 #Install some dependencies
 RUN yum install postgresql-devel boost-devel git curl wget nc sshpass -y
 #Install Development Tools dependencies

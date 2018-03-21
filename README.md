@@ -7,7 +7,7 @@ This image has everything you need to build a C/C++ project on CentOS machine. T
 The following contents are related to the latest version:
 
 ### Centos6
-The package uses CentOS 6.8 and comes with the following packages:
+The package uses CentOS 6.9 and comes with the following packages:
 
 | Package               | Arch   | Version                            |
 | ----------------------| ------ | ---------------------------------- |
