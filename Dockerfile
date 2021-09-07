@@ -1,4 +1,4 @@
-FROM centos:6.9
+FROM centos:6.10
 MAINTAINER Paulo Gomes da Cruz Junior <paulushc@gmail.com>
 
 #Remove the repos
